@@ -2,8 +2,7 @@
 using WorkShop02Core;
 
 try
-{
-
+{    
     var circle = new Circle(nameof(Circle), 5) ; 
     var square = new Square(nameof(Square), 10);
     var rhombus = new Rhombus(nameof(Rhombus), 5, 7, 10);
@@ -19,7 +18,6 @@ try
     {
         Console.WriteLine(figure);
     }
-
 }
 catch (Exception ex)
 {

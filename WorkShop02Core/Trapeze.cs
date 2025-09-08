@@ -12,6 +12,7 @@ public class Trapeze : Triangle
         C = c;
         D = d;
         H = h;
+        
     }
 
     public double D
